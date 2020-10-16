@@ -1,19 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Commissioner', sans-serif;
+    letter-spacing: normal;
+    
 }
+
+body{
+    height: 100vh;
+/*    overflow: hidden;*/
+}
+
+a{text-decoration: none; color: inherit;}
 
 .text-centered{
     text-align: center;
 }
 
 iframe{
-    width: 500px;
+    width: 700px;
+    height: 135vh
 }
 
 .store{
     position: relative;
-    top: 75px;
+    top: 40px;
+    height: 100vh;
 }
 
 
@@ -24,22 +38,83 @@ iframe{
     text-align: center;
     display: flex;
     justify-content: center;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.6);
 }
 
-#hero{
+ .hero{
     background-image: url(images/LANDW_MAPS.png);
     background-size: cover;
-    height: 100vh;
+    background-position: center center;
+    padding-top: 40px;
+/*    height: 100vh;*/
     text-align: center;
+    background-repeat: repeat;
 }
 
+.home .hero{height: calc(1323px + 75px);}
+
+.about .hero{height: 100vh;}
+
 .gumroad-product-embed{
-    width: 500px;
+    width: 700px;
+    height: 100%;
     
 }
 
+#navbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    background-color: navajowhite;
+    height: 75px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#navbar li{
+    padding: 22px 40px;
+    transition: .2s linear all;
+}
+
+#navbar li:hover{
+    background-color: bisque;
+    
+    
+}
+
+#navbar li a{
+    padding: 22px 0px;
+    transition: .2s linear all;
+}
+
+#navbar li a:hover{
+    letter-spacing: 1px;
+    transition: .2s linear all;
+}
+
+.active{
+    background-color: burlywood;
+}
+
+.active a{
+    letter-spacing: 1px;
+}
+
+#thesis-embed{
+    margin-top: 40px;
+    width: 900px;
+    height: calc(100vh - 75px);
+}
+
+
+/*
 #about{
     height: 500px;
     
-}
+}*/
