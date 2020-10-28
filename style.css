@@ -21,7 +21,7 @@ a{text-decoration: none; color: inherit;}
 
 iframe{
     width: 700px;
-    height: 135vh
+    height: 1318px;
 }
 
 .store{
@@ -118,3 +118,339 @@ iframe{
     height: 500px;
     
 }*/
+
+/*-------------------------------------------------------------------------SLIDESHOW-----------------------------------------------------------------------------------------------------------------------------*/
+.reveal{
+    background-color: white; 
+    height: 100%;
+    line-height: 2;
+    margin-top: 10px;
+}
+
+.reveal h1 {font-size: 48px;}
+
+#pres-logo{height: 500px; position: absolute; left:30%; top: 150px;}
+
+#s1{
+    text-align: left;
+}
+#s1 .bottom{ 
+    height: inherit; width: 100%; 
+    position: absolute; bottom: -450px; 
+    text-align: right;
+}
+
+.earth{height: 200px; margin-top: 40px;}
+
+#s2{
+    line-height: 3;
+}
+
+#s3{text-align: left;}
+
+#s3 h3{display: inline-block;}
+
+#s3 img{
+    width: 200px;
+    float: right;
+    display: inline-block;
+    margin: 0;
+}
+
+#s3 .america{width: 300px;}
+
+.full-width{width: 100%;}
+
+.st_louis{float: left; width: 450px;}
+
+#s4{text-align:left;} 
+#s4 h3{margin-left: 50px;}
+
+.vert-flex{
+    height: 620px; display: flex; flex-direction: column; justify-content: space-evenly; 
+}
+
+.house{width: 500px; float: left; position: relative; top: 150px;}
+
+#s5 h1{ font-size: 120px; position: relative; top: 185px;}
+
+#s5 p{position: absolute; bottom: -350px; height: 100px; width: 100%;}
+
+.speech-bubble{
+    position: absolute;
+    z-index: -1;
+/*    object-fit: fill;*/
+    opacity: .7;
+}
+
+#s5 .speech-bubble{
+    height: 100px;
+    width: 300px;
+    bottom: 25px;
+    right: 35%;
+}
+
+.stickman-1{
+    position: absolute;
+    right: 250px;
+    z-index: -1;
+    height: 700px;
+    top: 75px;
+}
+
+#s6 p{position: absolute; text-align: left;}
+
+/*
+#s6 p:nth-of-type(1){
+    left: 0;
+}
+*/
+
+#s6 .p1{
+    left: 0px;
+    top: 100px;
+}
+
+#s6 .p2{
+    top: 100px;
+    left: 400px;
+}
+
+#s6 .p4, #s6 .p3 {
+    width: 50%;
+    right: 0;
+}
+
+#s6 .p3{top: 200px;}
+#s6 .p4{top: 480px;}
+
+#s6 .sb-1{
+    height: 100px;
+    transform: rotateY(180deg);
+    left: -30px;
+    bottom: -50px;    
+}
+
+#s6 .sb-2{
+    height: 100px;
+    right: -45px;
+    bottom: -50px;
+}
+
+#s6 .sb-3{
+    height: 300px;
+    bottom: -125px;
+    left: 25px;
+    transform: scale(1.6,1.2);
+}
+
+
+
+#s7 .p1{
+    position: absolute;
+    top: 75px;
+    width: 600px;
+    text-align: left;
+    left: -25px;
+}
+
+#s7 .list-1{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+#s7 .p2{position: absolute; top: 0; width: 250px; text-align: left; right: 0; top: 200px;}
+
+#s7 .p3{position: absolute; right: 50px; top: 500px;}
+
+#s7 img{ position: absolute; left: -100px; width: 550px; top: 155px;}
+
+.grid{display: grid;}
+
+#s8 .grid{
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+#s8 h1{text-align: left; height: 100%; line-height: 1; width: 100%;}
+
+#s8 .img1{
+    background-image: url(images/certificate.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size:cover;
+}
+
+#s9 .grid{
+    grid-template-columns: 25% 50% 25%;
+}
+
+#s9 .g1{
+    text-align: left;
+    line-height: 1;
+}
+
+#s9 .g2{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+
+#s9 .g2 img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#s9 .g1 img{
+    position: absolute;
+    left:-200px;
+    z-index: 1;
+    width: 500px;
+    top: 0;
+}
+
+#s9 .g1 h2{
+    position: absolute;
+    top: 150px;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+#s9 .g1 .p1{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    font-size: 24px;
+}
+
+#s9 .g1 .p2{
+    font-weight: 600;
+    bottom: -50px;
+    position: absolute;
+    left: 150px;
+    font-size: 24px;
+}
+
+#s9 .g3 h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#s9 .g3 .p1{text-align: left; margin-top: 40px; font-size: 22px;}
+#s9 .g3 .p2{text-align: left; margin-left: 50px;margin-top: 80px;}
+#s9 .g3 .p3{margin-left: 150px; text-align: right;  margin-top: 125px; font-size: 14px;}
+
+#s10 img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: -500px;
+    z-index: -1
+}
+
+#s10{
+    color: white;
+}
+#s10 .grid{
+    grid-template-columns: 50% 50%;
+}
+
+#s10 h1, #s10 h2{
+    text-align: left;
+    line-height: 1;
+}
+
+#s10 h1{
+    margin-top: 50px;
+}
+
+#s10 h2{
+    font-size: 32px;
+    position: absolute;
+    bottom: -400px;
+}
+
+#s10 .g2 p{
+    text-align: left;
+    width: 50%;
+    line-height: 1.2;;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+#s11 img{
+    position: absolute;
+    z-index: -1
+}
+
+.sun{left: -275px;width: 1000px; height: 700px;}
+.plants{
+    right: -300px;
+    bottom: -700px;
+    width: 160%;
+    
+}
+
+
+#s11 h1{
+    text-align: left;
+    line-height: 1;
+    position: absolute;
+    left: -225px;
+    top: 24px;
+}
+
+#s11 p{
+    position: absolute;
+}
+#s11 .p1{
+    left: 100px;
+    top: 400px;
+}
+
+#s11 .p2{
+    top: 300px;
+    left: 300px;
+    width: 250px;
+}
+
+#s11 .p3{
+    position: absolute;
+    right: -225px;
+    top: 50px;
+    text-align: left;
+}
+
+#s12 img{
+    width: 300px;
+    height: 300px;
+}
+
+#s12 .grid{
+    grid-template-columns: 50% 70%;
+}
+
+#s12 .g1{
+    text-align: left;
+}
+
+#s12 .g2{
+    text-align: left;
+    margin-top: 50px;
+}
+
+#s12 .g2 h2{
+    font-size: 48px;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.end{
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    right: -150px;
+}
