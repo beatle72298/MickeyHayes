@@ -120,6 +120,7 @@ iframe{
 
 .active a{
     letter-spacing: 1px;
+    font-weight: 700;
 }
 
 #thesis-embed{
@@ -542,4 +543,22 @@ iframe{
     text-align: right;
     bottom: 0;
     right: -150px;
+}
+
+
+@media screen and (max-width: 400px){
+    #navbar li{
+        font-size: 18px;
+        padding: 19px 10px;
+    }
+    
+    #navbar{
+        height: 60px;
+        justify-content: space-around;
+    }
+    .header-logo{
+        display: none;
+    }
+    
+    
 }
