@@ -545,11 +545,15 @@ iframe{
     right: -150px;
 }
 
+.mobile{
+    display: none;
+}
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 467px){
     #navbar li{
         font-size: 18px;
         padding: 19px 10px;
+        white-space: nowrap;
     }
     
     #navbar{
@@ -560,5 +564,34 @@ iframe{
         display: none;
     }
     
+    .mobile{
+    display: block;
+    width: 1000px;
+    height: 800px;
+    top: -250px;
+    position: absolute;
+    z-index: 9;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    }
     
+    section img, section p, section h1, section h2, section h3, .cloud-1, .cloud-2, .cloud-3{
+        display: none;
+    }
+    
+    #s1 .mobile{background-image: url(images/mobile/s1.jpeg);}
+    #s2 .mobile{background-image: url(images/mobile/s2.jpeg);}
+    #s3 .mobile{background-image: url(images/mobile/s3.jpeg);}
+    #s4 .mobile{background-image: url(images/mobile/s4.jpeg);}
+    #s5 .mobile{background-image: url(images/mobile/s5.jpeg);}
+    #s6 .mobile{background-image: url(images/mobile/s6.jpeg);}
+    #s7 .mobile{background-image: url(images/mobile/s7.jpeg);}
+    #s8 .mobile{background-image: url(images/mobile/s8.jpeg);}
+    #s9 .mobile{background-image: url(images/mobile/s9.jpeg);}
+    #s10 .mobile{background-image: url(images/mobile/s10.jpeg);}
+    #s11 .mobile{background-image: url(images/mobile/s11.jpeg);}
+    #s12 .mobile{background-image: url(images/mobile/s12.jpeg);}
+    
+    #thesis-embed{width: 100%;}
 }
